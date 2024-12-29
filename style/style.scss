@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+// PALETA PRIMÁRIA
+$preto: #000000;
+$branco: #FFFFFF;
+$cinza-meteora: #CCCCCC;
+$verde-meteora: #DAFF01;
+$roxo-meteora: #9353FF;
+
+// PALETA COMPLEMENTAR
+$coral-meteora: #EE6471;
+$laranja-meteora: #F87F46;
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+#pagina-inteira {
+    background-color: $branco;
+}
+
+#cabecalho {
+    background-color: $preto;
+    width: 100vw;
+    height: 11.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5vw;
+
+    .navegação {
+        width: 50%;
+        display: flex;
+        align-items: center;
+
+        .menu-navegacao {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+}
